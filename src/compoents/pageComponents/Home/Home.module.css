@@ -1,0 +1,11 @@
+.homeCompContainer {
+  height: 100vh;
+  flex: 7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 200;
+}
