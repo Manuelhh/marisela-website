@@ -9,8 +9,7 @@
 .top {
   width: 100%;
   margin-top: 20px;
-  margin-right: 50px;
-  flex: 1;
+  height: 5%;
   text-align: end;
   position: sticky;
   top: 0px;
@@ -20,7 +19,7 @@
 }
 
 .bottom {
-  flex: 10;
+  height: 95%;
   display: flex;
   justify-content: center;
   align-items: center;

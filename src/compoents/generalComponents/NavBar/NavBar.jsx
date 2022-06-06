@@ -24,11 +24,11 @@ const NavBar = (props) => {
           <Link className={s.link} to="/about">
             <div className={s.menuItemContainer}>about</div>
           </Link>
-          <div className={s.menuItemContainer}>project one</div>
-          <div className={s.menuItemContainer}>project two</div>
-          <div className={s.menuItemContainer}>project three</div>
-          <div className={s.menuItemContainer}>project four</div>
-          <div className={s.menuItemContainer}>project five</div>
+          <div className={(s.menuItemContainer, s.link)}>project one</div>
+          <div className={(s.menuItemContainer, s.link)}>project two</div>
+          <div className={(s.menuItemContainer, s.link)}>project three</div>
+          <div className={(s.menuItemContainer, s.link)}>project four</div>
+          <div className={(s.menuItemContainer, s.link)}>project five</div>
         </div>
       </div>
 
@@ -37,17 +37,17 @@ const NavBar = (props) => {
         style={props.navBarState.showNavBar ? {} : { display: "none" }}
       >
         <div className={s.contactMenuItemContainer}>
-          <a href="https://www.google.com">
+          <Link to="/contact">
             <img src={emailImg} alt="email-icon" />
-          </a>
+          </Link>
         </div>
         <div className={s.contactMenuItemContainer}>
-          <a href="https://www.google.com">
+          <a href="https://www.linkedin.com/in/mariselalf">
             <img src={linkedInImg} alt="linkedIn-icon" />
           </a>
         </div>
         <div className={s.contactMenuItemContainer}>
-          <a href="https://www.google.com">
+          <a href="https://www.instagram.com/marisela_con_ese/">
             <img src={igImg} alt="ig-icon" />
           </a>
         </div>
