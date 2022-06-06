@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import s from "./NavBar.module.css";
 import emailImg from "../../../images/email.png";
 import linkedInImg from "../../../images/linkedin.png";
@@ -12,7 +13,7 @@ const NavBar = (props) => {
     <div className={s.navBarContainer}>
       <div className={s.topNavBarContainer}>
         <div className={s.moreContainer}>
-          <p onClick={handleNavBar}>
+          <p className={s.p} onClick={handleNavBar}>
             {props.navBarState.showNavBar ? "hide" : "more"}
           </p>
         </div>
@@ -20,7 +21,9 @@ const NavBar = (props) => {
           className={s.pageMenuContainer}
           style={props.navBarState.showNavBar ? {} : { display: "none" }}
         >
-          <div className={s.menuItemContainer}>about</div>
+          <Link className={s.link} to="/about">
+            <div className={s.menuItemContainer}>about</div>
+          </Link>
           <div className={s.menuItemContainer}>project one</div>
           <div className={s.menuItemContainer}>project two</div>
           <div className={s.menuItemContainer}>project three</div>
