@@ -1,4 +1,4 @@
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import s from "./App.module.css";
 import NavBar from "./compoents/generalComponents/NavBar/NavBar";
 import { Home } from "./compoents/pageComponents/Home/Home";
