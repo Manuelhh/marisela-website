@@ -5,6 +5,7 @@ import { Home } from "./compoents/pageComponents/Home/Home";
 import ErrorPage from "./compoents/pageComponents/ErrorPage/ErrorPage";
 import About from "./compoents/pageComponents/About/About";
 import { useState } from "react";
+import LaCuerpaQueSomos from "./compoents/pageComponents/LaCuerpaQueSomos/LaCuerpaQueSomos";
 
 function App() {
   // NavBar state
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/lacuerpaquesomos" element={<LaCuerpaQueSomos />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </div>

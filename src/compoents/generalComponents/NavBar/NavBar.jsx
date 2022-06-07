@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import s from "./NavBar.module.css";
-import emailImg from "../../../images/email.png";
-import linkedInImg from "../../../images/linkedin.png";
-import igImg from "../../../images/ig.png";
-import twitterImg from "../../../images/twitter.png";
+import emailImg from "../../../images/contactBar/email.png";
+import linkedInImg from "../../../images/contactBar/linkedin.png";
+import igImg from "../../../images/contactBar/ig.png";
+import twitterImg from "../../../images/contactBar/twitter.png";
 
 const NavBar = (props) => {
   const handleNavBar = () => {
@@ -24,7 +24,9 @@ const NavBar = (props) => {
           <Link className={s.link} to="/about">
             <div className={s.menuItemContainer}>about</div>
           </Link>
-          <div className={(s.menuItemContainer, s.link)}>project one</div>
+          <Link className={s.link} to="/lacuerpaquesomos">
+            <div className={s.menuItemContainer}>la cuerpa que somos</div>
+          </Link>
           <div className={(s.menuItemContainer, s.link)}>project two</div>
           <div className={(s.menuItemContainer, s.link)}>project three</div>
           <div className={(s.menuItemContainer, s.link)}>project four</div>
@@ -52,7 +54,7 @@ const NavBar = (props) => {
           </a>
         </div>
         <div className={s.contactMenuItemContainer}>
-          <a href="https://www.google.com">
+          <a href="https://www.twitter.com/marisela_con_s">
             <img src={twitterImg} alt="twitter-icon" />
           </a>
         </div>
