@@ -5,7 +5,8 @@ import { Home } from "./compoents/pageComponents/Home/Home";
 import ErrorPage from "./compoents/pageComponents/ErrorPage/ErrorPage";
 import About from "./compoents/pageComponents/About/About";
 import { useState } from "react";
-import LaCuerpaQueSomos from "./compoents/pageComponents/LaCuerpaQueSomos/LaCuerpaQueSomos";
+import { projectsData } from "./projectsData";
+import Project from "./compoents/pageComponents/Project/Project";
 
 function App() {
   // NavBar state
@@ -22,7 +23,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/lacuerpaquesomos" element={<LaCuerpaQueSomos />} />
+        {projectsData.map((project) => (
+          <Route
+            key={project.id}
+            path={project.path}
+            element={<Project project={project} />}
+          />
+        ))}
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </div>

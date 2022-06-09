@@ -1,4 +1,4 @@
-.laCuerpaQueSomosPageContainer {
+.projectContainer {
   height: 300vh;
   flex: 7;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.top {
+.topContainer {
   width: 100%;
   height: 2%;
   text-align: end;
@@ -17,7 +17,7 @@
   align-items: center;
 }
 
-.bottom {
+.bottomContainer {
   width: 100%;
   height: 98%;
   display: flex;
@@ -25,7 +25,7 @@
   align-items: center;
 }
 
-.LaCuerpaQueSomosContainer {
+.projectBottomContainer {
   height: 90%;
   width: 70%;
   display: flex;
