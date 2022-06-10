@@ -7,6 +7,7 @@ import About from "./compoents/pageComponents/About/About";
 import { useState } from "react";
 import { projectsData } from "./projectsData";
 import Project from "./compoents/pageComponents/Project/Project";
+import Contact from "./compoents/pageComponents/Contact/Contact";
 
 function App() {
   // NavBar state
@@ -30,6 +31,7 @@ function App() {
             element={<Project project={project} />}
           />
         ))}
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </div>
