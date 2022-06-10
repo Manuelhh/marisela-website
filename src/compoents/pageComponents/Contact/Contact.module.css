@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid black;
 }
 
 .topContainer {
@@ -24,11 +23,71 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blueviolet;
 }
 
 .contactFormContainer {
   width: 50%;
   height: 75%;
-  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 65%;
+  height: 100%;
+}
+
+.contactForm input {
+  height: 8%;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid transparent;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.contactForm input:hover {
+  border-bottom: 1px solid black;
+  transition: 0.5s;
+}
+
+.contactForm input:focus {
+  outline: none;
+}
+
+.contactForm textarea {
+  height: 8%;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid transparent;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.contactForm textarea:hover {
+  border-bottom: 1px solid black;
+  transition: 0.5s;
+}
+
+.contactForm textarea:focus {
+  outline: none;
+}
+
+.contactForm button {
+  width: 80%;
+  height: 5%;
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.contactForm button:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+  cursor: pointer;
 }
