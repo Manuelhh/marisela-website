@@ -27,10 +27,18 @@ const NavBar = (props) => {
           <Link className={s.link} to="/lacuerpaquesomos">
             <div className={s.menuItemContainer}>la cuerpa que somos</div>
           </Link>
-          <div className={(s.menuItemContainer, s.link)}>project two</div>
-          <div className={(s.menuItemContainer, s.link)}>project three</div>
-          <div className={(s.menuItemContainer, s.link)}>project four</div>
-          <div className={(s.menuItemContainer, s.link)}>project five</div>
+          <Link className={s.link} to="/project2">
+            <div className={s.menuItemContainer}>project two</div>
+          </Link>
+          <Link className={s.link} to="/project3">
+            <div className={s.menuItemContainer}>project three</div>
+          </Link>
+          <Link className={s.link} to="/project4">
+            <div className={s.menuItemContainer}>project four</div>
+          </Link>
+          <Link className={s.link} to="/project5">
+            <div className={s.menuItemContainer}>project five</div>
+          </Link>
         </div>
       </div>
 

@@ -12,24 +12,24 @@ const Contact = () => {
           <form action="" className={s.contactForm}>
             <input
               type="text"
-              placeholder="Name"
+              placeholder="name"
               name="name"
               autocomplete="off"
             />
             <input
               type="text"
-              placeholder="Subject"
+              placeholder="subject"
               name="subject"
               autocomplete="off"
             />
             <input
               type="text"
-              placeholder="Email"
+              placeholder="email"
               name="email"
               autocomplete="off"
             />
-            <textarea name="message" rows="5" placeholder="Message"></textarea>
-            <button>Submit</button>
+            <textarea name="message" rows="5" placeholder="message"></textarea>
+            <button>send</button>
           </form>
         </div>
       </div>
