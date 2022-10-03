@@ -8,6 +8,7 @@ import { useState } from "react";
 import { projectsData } from "./projectsData";
 import Project from "./compoents/pageComponents/Project/Project";
 import Contact from "./compoents/pageComponents/Contact/Contact";
+import { Blog } from "./compoents/pageComponents/Blog/Blog";
 
 function App() {
   // NavBar state
@@ -24,6 +25,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/blog" element={<Blog />} />
         {projectsData.map((project) => (
           <Route
             key={project.id}
