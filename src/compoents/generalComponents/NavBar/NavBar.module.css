@@ -13,7 +13,7 @@
 
 .topNavBarContainer {
   width: 100%;
-  height: 25%;
+  height: 75%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -21,9 +21,9 @@
 
 .moreContainer {
   width: 100%;
-  height: 15%;
+  height: 10%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   font-weight: 200;
 }
@@ -40,11 +40,41 @@
 
 .pageMenuContainer {
   width: 100%;
-  height: 70%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
+}
+
+.pageMenuContainerTop {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pageMenuContainerBottom {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pageMenuContainerBottom1 {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.pageMenuContainerBottom2 {
+  height: auto;
+  display: flex;
+  justify-content: end;
 }
 
 .contactMenuContainer {

@@ -21,24 +21,47 @@ const NavBar = (props) => {
           className={s.pageMenuContainer}
           style={props.navBarState.showNavBar ? {} : { display: "none" }}
         >
-          <Link className={s.link} to="/about">
-            <div className={s.menuItemContainer}>about</div>
-          </Link>
-          <Link className={s.link} to="/lacuerpaquesomos">
-            <div className={s.menuItemContainer}>la cuerpa que somos</div>
-          </Link>
-          <Link className={s.link} to="/project2">
-            <div className={s.menuItemContainer}>project two</div>
-          </Link>
-          <Link className={s.link} to="/project3">
-            <div className={s.menuItemContainer}>project three</div>
-          </Link>
-          <Link className={s.link} to="/project4">
-            <div className={s.menuItemContainer}>project four</div>
-          </Link>
-          <Link className={s.link} to="/project5">
-            <div className={s.menuItemContainer}>project five</div>
-          </Link>
+          {/*  */}
+
+          <div className={s.pageMenuContainerTop}>
+            <Link className={s.link} to="/about">
+              <div className={s.menuItemContainer}>about</div>
+            </Link>
+
+            <Link className={s.link} to="/blog">
+              <div className={s.menuItemContainer}>blog</div>
+            </Link>
+          </div>
+
+          {/*  */}
+
+          <div className={s.pageMenuContainerBottom}>
+            <div className={s.pageMenuContainerBottom1}>
+              <div>projects:</div>
+              <br />
+              <Link className={s.link} to="/lacuerpaquesomos">
+                <div className={s.menuItemContainer}>la cuerpa que somos</div>
+              </Link>
+              <Link className={s.link} to="/project2">
+                <div className={s.menuItemContainer}>project two</div>
+              </Link>
+              <Link className={s.link} to="/project3">
+                <div className={s.menuItemContainer}>project three</div>
+              </Link>
+              <Link className={s.link} to="/project4">
+                <div className={s.menuItemContainer}>project four</div>
+              </Link>
+              <Link className={s.link} to="/project5">
+                <div className={s.menuItemContainer}>project five</div>
+              </Link>
+            </div>
+
+            <div className={s.pageMenuContainerBottom2}>
+              <Link className={s.link} to="/signin">
+                <div className={s.menuItemContainer}>+++</div>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
 
