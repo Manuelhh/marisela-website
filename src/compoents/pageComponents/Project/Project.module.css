@@ -42,9 +42,13 @@
   font-weight: 100;
 }
 
+.projectTitle {
+  text-decoration: underline;
+}
+
 .projectDescContainer {
   width: 50%;
-  height: 15%;
+  height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,6 +58,7 @@
 
 .description {
   width: 90%;
+  height: auto;
 }
 
 .projectImgContainer {
@@ -66,7 +71,7 @@
   height: 100%;
   border-radius: 10px 10px 0px 0px;
   opacity: 0.7;
-  object-fit: top;
+  object-fit: cover;
 }
 
 .projectImg:hover {

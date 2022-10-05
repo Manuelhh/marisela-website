@@ -10,7 +10,7 @@ const Project = (props) => {
       <div className={s.bottomContainer}>
         <div className={s.projectBottomContainer}>
           <div className={s.projectTextContainer}>
-            <p>{props.project.title}</p>
+            <p className={s.projectTitle}>{props.project.title}</p>
           </div>
           <div className={s.projectDescContainer}>
             <p>{props.project.description}</p>

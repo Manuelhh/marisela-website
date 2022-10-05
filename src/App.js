@@ -9,6 +9,7 @@ import { projectsData } from "./projectsData";
 import Project from "./compoents/pageComponents/Project/Project";
 import Contact from "./compoents/pageComponents/Contact/Contact";
 import { Blog } from "./compoents/pageComponents/Blog/Blog";
+import { ProjectInt } from "./compoents/pageComponents/ProjectInt/ProjectInt";
 
 function App() {
   // NavBar state
@@ -33,6 +34,7 @@ function App() {
             element={<Project project={project} />}
           />
         ))}
+        <Route path="/intervencion" element={<ProjectInt />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>

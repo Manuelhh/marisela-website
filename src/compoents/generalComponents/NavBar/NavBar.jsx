@@ -40,19 +40,19 @@ const NavBar = (props) => {
               <div>projects:</div>
               <br />
               <Link className={s.link} to="/lacuerpaquesomos">
-                <div className={s.menuItemContainer}>la cuerpa que somos</div>
+                <div className={s.menuItemContainer}>one</div>
               </Link>
-              <Link className={s.link} to="/project2">
-                <div className={s.menuItemContainer}>project two</div>
+              <Link className={s.link} to="/asociacion">
+                <div className={s.menuItemContainer}>two</div>
               </Link>
-              <Link className={s.link} to="/project3">
-                <div className={s.menuItemContainer}>project three</div>
+              <Link className={s.link} to="/dif">
+                <div className={s.menuItemContainer}>three</div>
               </Link>
-              <Link className={s.link} to="/project4">
-                <div className={s.menuItemContainer}>project four</div>
+              <Link className={s.link} to="/intervencion">
+                <div className={s.menuItemContainer}>four</div>
               </Link>
-              <Link className={s.link} to="/project5">
-                <div className={s.menuItemContainer}>project five</div>
+              <Link className={s.link} to="/dada">
+                <div className={s.menuItemContainer}>five</div>
               </Link>
             </div>
 
