@@ -26,50 +26,56 @@
 }
 
 .projectBottomContainer {
-  height: 90%;
-  width: 70%;
+  height: 100%;
+  width: 80%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
+  margin-bottom: 10rem;
 }
 
 .projectTextContainer {
-  width: 50%;
-  height: 15%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-weight: 100;
-}
-
-.projectTitle {
-  text-decoration: underline;
-}
-
-.projectDescContainer {
-  width: 50%;
-  height: 20%;
+  width: 100%;
+  height: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: justify;
   font-weight: 100;
+  flex: 1;
+  font-size: 1.5rem;
+  margin-bottom: -5rem;
 }
 
-.description {
-  width: 90%;
-  height: auto;
+.projectDescContainer {
+  width: auto;
+  font-weight: 100;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 100px;
+  margin-bottom: 3rem;
+  flex: 1;
+  text-align: justify;
+}
+
+.projectImagesContainer {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 7;
 }
 
 .projectImgContainer {
-  width: 50%;
+  width: 80%;
   height: 15%;
 }
 
 .projectImg {
   width: 100%;
   height: 100%;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 1rem;
   opacity: 0.7;
   object-fit: cover;
 }
