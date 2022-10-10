@@ -80,6 +80,6 @@ export const projectsData = [
       "https://res.cloudinary.com/mangud/image/upload/v1665330520/Marisela/Screen_Shot_2022-10-09_at_11.48.32_AM_nth1bg.png",
     imgFiveDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     imgFive:
-      "https://res.cloudinary.com/mangud/image/upload/v1664993413/Marisela/Screen_Shot_2022-10-05_at_2.10.04_PM_e44bxm.png",
+      "https://res.cloudinary.com/mangud/image/upload/v1665408012/Marisela/_MG_8163_ihrbpq.jpg",
   },
 ];
