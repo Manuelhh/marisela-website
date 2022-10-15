@@ -99,6 +99,11 @@ img {
   margin: 3px;
 }
 
+img:hover {
+  opacity: 0.3;
+  transition: 0.5s;
+}
+
 .link {
   text-decoration: none;
   color: black;
