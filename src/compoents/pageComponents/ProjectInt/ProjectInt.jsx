@@ -13,7 +13,7 @@ export const ProjectInt = () => {
             Intervención artístico-educativa:
           </div>
           <div className={s.descriptionContainer}>
-            <div className={s.textContainer}>
+            <p className={s.textContainer}>
               La intervención artístico-educativa que dio lugar a mi trabajo de
               titulación de la Maestría en Educación y Expresión para las Artes
               fue llevada a cabo en el año 2016 durante un semestre escolar. Uso
@@ -39,8 +39,8 @@ export const ProjectInt = () => {
               recabada. El programa de estrategias didácticas fue bien recibido
               por el estudiantado; sus productos y reflexiones, además de mis
               propias observaciones revelaron elementos importantes de su
-              desarrollo creativo.{" "}
-            </div>
+              desarrollo creativo.
+            </p>
           </div>
         </div>
         <div className={s.imgsContainer}>

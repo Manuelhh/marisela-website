@@ -31,6 +31,7 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
+  margin-top: 5rem;
 }
 
 .descTitleContainer {
@@ -39,7 +40,7 @@
   justify-content: center;
   align-items: center;
   font-weight: 100;
-  font-size: 1.15rem;
+  font-size: 1.5rem;
 }
 
 .descriptionContainer {
@@ -81,4 +82,21 @@
   opacity: 1;
   transition: 0.5s;
   cursor: none;
+}
+
+@media screen and (max-width: 600px) {
+  .descContainer {
+    max-height: 60vh;
+    margin-bottom: 5rem;
+  }
+
+  .imgsContainer {
+    flex-direction: column;
+    max-height: fit-content;
+    margin-bottom: 8rem;
+  }
+
+  .imgContainer {
+    margin: 2rem;
+  }
 }
