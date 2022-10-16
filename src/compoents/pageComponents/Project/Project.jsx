@@ -17,7 +17,6 @@ const Project = (props) => {
           </div>
 
           <div className={s.projectImagesContainer}>
-            {" "}
             <div className={s.projectImgContainer}>
               <img
                 className={s.projectImg}

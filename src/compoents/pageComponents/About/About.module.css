@@ -85,4 +85,8 @@
   .aboutTextContainer {
     margin-bottom: 2rem;
   }
+
+  .text {
+    padding: 20px;
+  }
 }
