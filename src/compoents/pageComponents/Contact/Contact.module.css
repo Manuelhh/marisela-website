@@ -112,3 +112,24 @@
   color: gray;
   transition: 0.3s;
 }
+
+@media screen and (max-width: 600px) {
+  .contactPageContainer {
+    max-height: 110vh;
+
+    justify-content: space-evenly;
+  }
+
+  .bottomContainer {
+    width: 90%;
+    height: 70vh;
+  }
+
+  .contactFormContainer {
+    width: 100%;
+  }
+
+  .thanksMessage {
+    height: 10vh;
+  }
+}

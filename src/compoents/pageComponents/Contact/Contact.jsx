@@ -46,6 +46,11 @@ const Contact = () => {
     nameRef.current.focus();
   };
 
+  const handleSent = () => {
+    setSent(false);
+    nameRef.current.focus();
+  };
+
   return (
     <div className={s.contactPageContainer}>
       <div className={s.topContainer}>
@@ -91,7 +96,7 @@ const Contact = () => {
             message sent
             <sup
               className={s.thanksMessageButton}
-              onClick={() => setSent(false)}
+              onClick={() => handleSent(false)}
             >
               close
             </sup>
