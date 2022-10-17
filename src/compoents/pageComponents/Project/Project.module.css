@@ -90,7 +90,7 @@
   transition: 0.5s;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .mainProjectContainer {
     min-height: auto;
   }
