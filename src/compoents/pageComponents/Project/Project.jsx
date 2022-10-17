@@ -11,7 +11,39 @@ const Project = (props) => {
         <div className={s.projectContainer}>
           <div className={s.titleContainer}>{props.project.title}</div>
           <div className={s.descContainer}>
-            <p className={s.descText}>{props.project.description}</p>
+            <div className={s.descText}>
+              {props.project.description}
+              {props.project.id === 4 ? <br></br> : ""}
+              {props.project.id === 4 ? <br></br> : ""}
+              {props.project.id === 4 ? <div>Team:</div> : ""}
+              {props.project.id === 4 ? (
+                <div>General Director: Marisela L. Fierro</div>
+              ) : (
+                ""
+              )}
+              {props.project.id === 4 ? (
+                <div>Editorial Coordinator: Pedro Valderrama Villanueva</div>
+              ) : (
+                ""
+              )}
+              {props.project.id === 4 ? (
+                <div>
+                  Correction of texts: Diego Vázquez and Ana Lilia Larios
+                </div>
+              ) : (
+                ""
+              )}
+              {props.project.id === 4 ? (
+                <div>Graphic Design and Image Editing: Marisela L. Fierro</div>
+              ) : (
+                ""
+              )}
+              {props.project.id === 4 ? (
+                <div>Collaborator: Victor Villalobos</div>
+              ) : (
+                ""
+              )}
+            </div>
           </div>
           <div className={s.imagesContainer}>
             <div className={s.imageContainer}>

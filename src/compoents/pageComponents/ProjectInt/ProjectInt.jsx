@@ -14,32 +14,35 @@ export const ProjectInt = () => {
           </div>
           <div className={s.descriptionContainer}>
             <p className={s.textContainer}>
-              La intervención artístico-educativa que dio lugar a mi trabajo de
-              titulación de la Maestría en Educación y Expresión para las Artes
-              fue llevada a cabo en el año 2016 durante un semestre escolar. Uso
-              del pensamiento metafórico en la experimentación fotográfica.
-              Estrategia didáctica para el desarrollo de la creatividad,
-              consistió en la ejecución y observación sistematizada de
-              actividades a manera de laboratorio poético para desarrollar la
-              creatividad en estudiantes de fotografía digital de quinto
-              semestre en la Preparatoria 7 de la Universidad de Guadalajara.
-              Cada semana, durante tres horas, las y los estudiantes asistieron
-              a una sesión del laboratorio donde se abrieron espacios para la
-              experimentación con elementos físicos como papel, pinturas,
-              materiales de desecho, fotografías impresas y digitales; y
-              elementos simbólicos como metáforas e historias, con la intención
-              de movilizar la intuición y la observación y de esta manera,
-              abordar la manipulación de imágenes como medio para la activación
-              de la mirada poética. Las y los estudiantes que participaron
-              registraron los procesos de cada sesión en un diario que da cuenta
-              de las reflexiones acerca de sus creaciones, lo que me permitió
-              observar la profundidad metacognitiva que alcanzaron. Al mismo
-              tiempo, realicé un registro en fotografía y video, así como en un
-              diario de notas, que utilicé para triangular la información
-              recabada. El programa de estrategias didácticas fue bien recibido
-              por el estudiantado; sus productos y reflexiones, además de mis
-              propias observaciones revelaron elementos importantes de su
-              desarrollo creativo.
+              The artistic-educative intervention that carried to my final paper
+              for my Master’s Degree in Art Education and Expression occurred
+              during the year 2016 during a school semester. Use of metaphorical
+              thought in photographic experimentation. Didactic strategy for the
+              development of creativity, consisted in the systemized execution
+              and observation of activities as a laboratory to develop the
+              creativity in students of the digital photography subject in the
+              fifth semester of the Preparatoria 7 of the University of
+              Guadalajara.
+              <br></br>
+              <br></br>
+              Every week, for three hours, the students attended a laboratory
+              session during which spaces were opened for experimentation with
+              physical elements such as paper, paint, design materials, printed
+              and digital photographs; and symbolic elements such as metaphors
+              and stories, with the intention of mobilizing intuition and
+              observation and, in this way, addressing the manipulation of
+              images as a means of activating the poetic gaze.
+              <br></br>
+              <br></br>
+              The students who participated recorded the processes of each
+              session in a diary that accounts for the reflections on their
+              creations, which allowed me to observe the metacognitive depth
+              they reached. At the same time, I made a photographic and video
+              record, as well as a journal of notes, which I used to triangulate
+              the information collected. The teaching strategies program was
+              well received by the students; his products and reflections, as
+              well as my own observations, revealed important elements of his
+              creative development.
             </p>
           </div>
         </div>
