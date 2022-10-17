@@ -3,53 +3,50 @@ import s from "./Project.module.css";
 
 const Project = (props) => {
   return (
-    <div className={s.projectContainer}>
+    <div className={s.mainProjectContainer}>
       <div className={s.topContainer}>
         <HomeButton />
       </div>
       <div className={s.bottomContainer}>
-        <div className={s.projectBottomContainer}>
-          <div className={s.projectTextContainer}>
-            <p>{props.project.title}</p>
+        <div className={s.projectContainer}>
+          <div className={s.titleContainer}>{props.project.title}</div>
+          <div className={s.descContainer}>
+            <p className={s.descText}>{props.project.description}</p>
           </div>
-          <div className={s.projectDescContainer}>
-            <p>{props.project.description}</p>
-          </div>
-
-          <div className={s.projectImagesContainer}>
-            <div className={s.projectImgContainer}>
+          <div className={s.imagesContainer}>
+            <div className={s.imageContainer}>
               <img
-                className={s.projectImg}
+                className={s.image}
                 src={props.project.imgOne}
-                alt="project"
+                alt="projectImage"
               />
             </div>
-            <div className={s.projectImgContainer}>
+            <div className={s.imageContainer}>
               <img
-                className={s.projectImg}
+                className={s.image}
                 src={props.project.imgTwo}
-                alt="project"
+                alt="projectImage"
               />
             </div>
-            <div className={s.projectImgContainer}>
+            <div className={s.imageContainer}>
               <img
-                className={s.projectImg}
+                className={s.image}
                 src={props.project.imgThree}
-                alt="project"
+                alt="projectImage"
               />
             </div>
-            <div className={s.projectImgContainer}>
+            <div className={s.imageContainer}>
               <img
-                className={s.projectImg}
+                className={s.image}
                 src={props.project.imgFour}
-                alt="project"
+                alt="projectImage"
               />
             </div>
-            <div className={s.projectImgContainer}>
+            <div className={s.imageContainer}>
               <img
-                className={s.projectImg}
+                className={s.image}
                 src={props.project.imgFive}
-                alt="project"
+                alt="projectImage"
               />
             </div>
           </div>
