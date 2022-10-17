@@ -22,19 +22,14 @@ export const projectsData = [
     title: "Asociación de dibujantes que no saben qué dibujar:",
     description:
       "Intervención artístico-educativa en la que participaron estudiantes de diversas edades de la Preparatoria 7 de la Universidad de Guadalajara. La Asociación de Dibujantes fue creada con la intención de que las y los participantes desarrollaran su creatividad y estimularan su capacidad expresiva por medio del dibujo. El único requisito para ingresar fue el gusto por dibujar, se hizo incapié en que no era importante no saber hacerlo. Cada participante creó una carpeta en la que recopilaron los ejercicios de las sesiones, donde se buscaba la introspección y el encuentro con el propio proceso creativo. Durante las sesiones se compartieron los hallazgos y las experiencias que se presentaron, así como las propuestas de nuevos ejercicios para futuros encuentros. El proyecto tuvo una duración de un año en formato presencial, en el 2018 y continuó de manera virtual en el primer semestre del 2019.",
-    imgOneDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     imgOne:
       "https://res.cloudinary.com/mangud/image/upload/v1664984291/Marisela/Asociaci%C3%B3n_de_dibujantes_3_fxkpgv.jpg",
-    imgTwoDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     imgTwo:
       "https://res.cloudinary.com/mangud/image/upload/v1664984291/Marisela/Asociaci%C3%B3n_de_dibujantes_6_rdmtth.jpg",
-    imgThreeDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     imgThree:
       "https://res.cloudinary.com/mangud/image/upload/v1664984291/Marisela/Asociaci%C3%B3n_de_dibujantes_5_ba3wio.jpg",
-    imgFourDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     imgFour:
       "https://res.cloudinary.com/mangud/image/upload/v1664984290/Marisela/Asociaci%C3%B3n_de_dibujantes_2_v2byzm.jpg",
-    imgFiveDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     imgFive:
       "https://res.cloudinary.com/mangud/image/upload/v1664984290/Marisela/Asociaci%C3%B3n_de_dibujantes_1_upnt0w.jpg",
   },
@@ -44,19 +39,14 @@ export const projectsData = [
     title: "DIF:",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima aliquam dolor soluta ipsam commodi fuga veritatis eum unde sed eveniet illo est exercitationem totam a, eligendi ullam ipsa sunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima aliquam dolor soluta ipsam commodi fuga veritatis eum unde sed eveniet illo est exercitationem totam a, eligendi ullam ipsa sunt.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima aliquam dolor soluta ipsam commodi fuga veritatis eum unde sed eveniet illo est exercitationem totam a, eligendi ullam ipsa sunt.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima aliquam dolor soluta ipsam commodi fuga veritatis eum unde sed eveniet illo est exercitationem totam a, eligendi ullam ipsa sunt.",
-    imgOneDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     imgOne:
       "https://res.cloudinary.com/mangud/image/upload/v1664984999/Marisela/100_3646_amhjvv.jpg",
-    imgTwoDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     imgTwo:
       "https://res.cloudinary.com/mangud/image/upload/v1664985000/Marisela/IMG_6477_uteqya.jpg",
-    imgThreeDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     imgThree:
       "https://res.cloudinary.com/mangud/image/upload/v1664985000/Marisela/IMG_7439_wbybwh.jpg",
-    imgFourDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     imgFour:
       "https://res.cloudinary.com/mangud/image/upload/v1664985001/Marisela/IMG_7371_soxe3o.jpg",
-    imgFiveDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     imgFive:
       "https://res.cloudinary.com/mangud/image/upload/v1664985002/Marisela/IMG_2662_dlli3e.jpg",
   },
@@ -66,19 +56,14 @@ export const projectsData = [
     title: "dada:",
     description:
       "DADA (Disfrutando el Arte Desde Adentro), publicación semestral en formato de cartel plegable, es una revista-fanzine impresa y digital. Es un medio de expresión y acercamiento a la creación literaria y a las artes visuales principalmente para las y los estudiantes de la Preparatoria 7 de la Universidad de Guadalajara; busca involucrarlos junto con el personal académico y administrativo, generando vínculos que dotan de un sentido de identidad a la institución. Actualmente, la revista cuenta con diez números publicados que se han distribuido en preparatorias y centros de la UdeG. DADA, a lo largo de 9 años de vida, ha sido semillero de diversos proyectos editoriales y talleres de creación literaria. ",
-    imgOneDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     imgOne:
       "https://res.cloudinary.com/mangud/image/upload/v1665330421/Marisela/_MG_8149_qypqrc.jpg",
-    imgTwoDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     imgTwo:
       "https://res.cloudinary.com/mangud/image/upload/v1665330421/Marisela/_MG_8151_l2zdzz.jpg",
-    imgThreeDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     imgThree:
       "https://res.cloudinary.com/mangud/image/upload/v1665330423/Marisela/_MG_8150_v5jpik.jpg",
-    imgFourDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     imgFour:
       "https://res.cloudinary.com/mangud/image/upload/v1665330520/Marisela/Screen_Shot_2022-10-09_at_11.48.32_AM_nth1bg.png",
-    imgFiveDesc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     imgFive:
       "https://res.cloudinary.com/mangud/image/upload/v1665408012/Marisela/_MG_8163_ihrbpq.jpg",
   },
