@@ -57,7 +57,7 @@ const NavBar = (props) => {
             </div>
 
             <div className={s.pageMenuContainerBottom2}>
-              <Link className={s.link} to="/signin">
+              <Link className={s.link} to="/login">
                 <div className={s.menuItemContainer}>+++</div>
               </Link>
             </div>

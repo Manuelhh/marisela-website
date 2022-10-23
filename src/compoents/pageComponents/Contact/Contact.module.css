@@ -116,7 +116,6 @@
 @media screen and (max-width: 600px) {
   .contactPageContainer {
     max-height: 110vh;
-
     justify-content: space-evenly;
   }
 
