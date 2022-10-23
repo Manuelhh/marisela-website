@@ -74,7 +74,7 @@
 .pageMenuContainerBottom2 {
   height: auto;
   display: flex;
-  justify-content: end;
+  justify-content: start;
 }
 
 .contactMenuContainer {
@@ -116,7 +116,7 @@ img:hover {
 
 @media screen and (max-width: 600px) {
   .navBarContainer {
-    max-height: fit-content;
+    min-height: fit-content;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -125,6 +125,7 @@ img:hover {
   .topNavBarContainer {
     flex-direction: row;
     flex: 1;
+    height: auto;
     justify-content: space-between;
   }
 
@@ -137,7 +138,7 @@ img:hover {
 
   .pageMenuContainer {
     width: auto;
-    height: 100%;
+    height: auto;
   }
 
   .contactMenuContainer {
@@ -145,7 +146,9 @@ img:hover {
     height: auto;
     flex-direction: column;
     align-items: flex-end;
-
     flex: 1;
+  }
+  .pageMenuContainerBottom2 {
+    margin-top: 1rem;
   }
 }
