@@ -36,7 +36,7 @@ export const projectsData = [
   {
     id: 3,
     path: "/dif",
-    title: "DIF: Expreso y existo.",
+    title: "Expreso y existo.",
     description:
       "I express and I exist. In 2008 and 2009, I worked as an art educator and cultural manager at the DIF Zapopan, where I designed and executed programs for the development of creativity through art aimed at children and adolescents living on the streets of marginalized neighborhoods in extreme poverty situation of the Zapopan municipality. Among the actions with the greatest impact during the time I worked with these populations are the creativity workshops, in which the participants were able to experiment in a playful way with different languages ​​of art, such as painting, drawing, collage, photography, video and music; in addition to knowing and using different forms of expression with which they gave voice to their ideas, stories and desires. The workshops were held in 12 neighborhoods and attended to more than 300 children and adolescents. As part of the activities, visits were made to the Regional Museum of Guadalajara and the Zapopan Art Museum. The program closed significantly at the now-defunct El Colectivo culture center with an exhibition of the works, the projection of audiovisual documentary material from the workshops, and with the participation of a group of graffiti artists from Zapopan and Guadalajara who carried out a activity called “The train of illusions” (wooden wagons painted by children and graffiti artists together).",
     imgOne:
