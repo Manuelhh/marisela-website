@@ -116,7 +116,7 @@ img:hover {
 
 @media screen and (max-width: 600px) {
   .navBarContainer {
-    min-height: fit-content;
+    max-height: fit-content;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
